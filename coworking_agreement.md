@@ -14,15 +14,19 @@ Our expectation is working all the time by zoom.
 ## Learning Style
 *How does each team member learn best in project settings?*
 
+Learning through discussing, talking and sharing.
+
 ## Preferred Feedback Style
 *How does each team member best receive feedback?*
+Straight forward.
 
 ## One Team Communication Skill to Improve
 *What is a teamwork-related skill you want to work on?*
+Copiloting.
 
 ## Optional: Other agreements
 *Other co-working agreements that were not captured in the above sections.*
 
 ## Signatures
-______________ _______________
-Date: _________
+Sophie Agre _______________
+Date: 22 Sep, 2025.
