@@ -9,6 +9,8 @@ Monday & Tuesday will be the best days. Trying to finish as soon as possible.
 ## Collaboration vs. Individual Work Expectations
 *Clarify your collaboration expectations - does your group want to write code together all of the time? Or divide work to do independently, then come together to share accomplishments? What tools and technologies can help your collaboration?*
 
+Our expectation is working all the time by zoom.
+
 ## Learning Style
 *How does each team member learn best in project settings?*
 
