@@ -62,15 +62,31 @@ def get_watched_avg_rating(user_data):
 
 def get_most_watched_genre(user_data):
     genere_dict = {}
+    
     if not user_data["watched"]:
         return None
     for i in range(len(user_data["watched"])):
         genere_dict[user_data["watched"][i]["genre"]] = genere_dict.get(user_data["watched"][i]["genre"],0) + 1
-    max_genere = ["genere",-1000]
+    
+    max_genere = ["genere", -1000]
+
     for genere_key, genere_value in genere_dict.items():
         if genere_value > max_genere[1]:
-            max_genere = [genere_key,genere_value]
+            max_genere = [genere_key, genere_value]
+
     return max_genere[0]
+    # genre_count = 0
+    # most_popular_genre = " "
+    # for genere_key, genere_value in genere_dict.items():
+    #     if genere_value > genre_count:
+    #         most_popular_genre = genere_key
+    #         genre_count = genere_value
+
+    # return most_popular_genre
+
+ 
+
+    
 
 
 
