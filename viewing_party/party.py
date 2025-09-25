@@ -42,13 +42,8 @@ def watch_movie(user_data, title):
     return user_data
     
 
-
-
-
-
-# -----------------------------------------
 # ------------- WAVE 2 --------------------
-# -----------------------------------------
+
 
 def get_watched_avg_rating(user_data):
     total_rating = 0
@@ -84,6 +79,8 @@ def get_most_watched_genre(user_data):
 
     # return most_popular_genre
 
+
+# ------------- WAVE 3 --------------------
 
 # # USER_DATA_2b = {
 #     "watched": [
@@ -190,11 +187,21 @@ def get_friends_unique_watched(user_data):
 #     return   friends_unique_watched
 
         
-# -----------------------------------------
-# ------------- WAVE 4 --------------------
-# -----------------------------------------
 
-# -----------------------------------------
+# ------------- WAVE 4 --------------------
+
+def get_available_recs(user_data):
+    avalable_recs = []
+    recs = get_friends_unique_watched(user_data)
+
+    for rec in recs:
+        if rec["host"] in user_data["subscriptions"]:
+            avalable_recs.append(rec)
+
+    return avalable_recs
+
+
 # ------------- WAVE 5 --------------------
-# -----------------------------------------
+
+
 
