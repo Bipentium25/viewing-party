@@ -7,10 +7,9 @@ def create_movie(title, genre, rating):
     if not (title and genre and rating):
         return None
     
-    if title and genre and rating:
-        movie["title"] = title
-        movie["genre"] = genre
-        movie["rating"] = rating
+    movie["title"] = title
+    movie["genre"] = genre
+    movie["rating"] = rating
     
     return movie
 
